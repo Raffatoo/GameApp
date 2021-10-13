@@ -11,6 +11,8 @@
 		5200E34A2715861E00ECE079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200E3492715861E00ECE079 /* ContentView.swift */; };
 		5200E34C2715861F00ECE079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5200E34B2715861F00ECE079 /* Assets.xcassets */; };
 		5200E34F2715861F00ECE079 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5200E34E2715861F00ECE079 /* Preview Assets.xcassets */; };
+		5200E3572715897600ECE079 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200E3562715897600ECE079 /* LoginApp.swift */; };
+		5200E3592715AB0200ECE079 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200E3582715AB0200ECE079 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5200E34B2715861F00ECE079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5200E34E2715861F00ECE079 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5200E3502715861F00ECE079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5200E3562715897600ECE079 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
+		5200E3582715AB0200ECE079 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				5200E3472715861E00ECE079 /* GameAppApp.swift */,
 				5200E3492715861E00ECE079 /* ContentView.swift */,
+				5200E3562715897600ECE079 /* LoginApp.swift */,
+				5200E3582715AB0200ECE079 /* HomeView.swift */,
 				5200E34B2715861F00ECE079 /* Assets.xcassets */,
 				5200E3502715861F00ECE079 /* Info.plist */,
 				5200E34D2715861F00ECE079 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5200E34A2715861E00ECE079 /* ContentView.swift in Sources */,
+				5200E3592715AB0200ECE079 /* HomeView.swift in Sources */,
+				5200E3572715897600ECE079 /* LoginApp.swift in Sources */,
 				5200E3482715861E00ECE079 /* GameAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
